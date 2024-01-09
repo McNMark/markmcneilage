@@ -1,6 +1,6 @@
 const app = {
     init: () => {
-        document
+        document 
             .getElementById("searchWeather")
             .addEventListener("click", app.fetchWeather);
     },

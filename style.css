@@ -17,10 +17,6 @@
     font-weight: bold ;
 }
 
-.tabContent {
-    display:none;
-}
-
 .activeTab {
     background-color: rgba(169, 169, 169, 0.8);
 }
@@ -30,5 +26,29 @@
     font-size: 90%;
 }
 
-/* Calculator page */
+/* Calculator */
 
+.calculator {
+    justify-content: left;
+    border: 2px solid;
+    padding: 10px;
+    background-color:black;
+    width: 290px;
+    height: 230px;
+}
+
+input[type=button] {
+    border: 1px solid;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+    width: 50px;
+    height:100%;
+    background-color:aliceblue;
+    border-radius: 100px;
+}
+
+.displayBox {
+    background-color:beige;
+    width: 95%;
+    height: 20px;
+}
